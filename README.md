@@ -33,7 +33,7 @@ please make sure to upload a file and enter this text as description. If you don
 
 -----------------------------------------
 
-Current list of scripts: *
+Current list of scripts:
 
 | Name | Creator | Since | Links |
 | --- | --- | --- | --- |
@@ -45,7 +45,7 @@ Current list of scripts: *
 
 # 1.0 - Scripts and other
 
-Stats: *
+Stats:
 
 | Name | Calcuated End | Finished | Position |
 | --- | --- | --- | --- |
