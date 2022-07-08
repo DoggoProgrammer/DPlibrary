@@ -1,1 +1,0 @@
--- This place is still in progress view https://github.com/DoggoProgrammer/DPlibrary/README.md to view more information to this project.
