@@ -28,8 +28,12 @@ into your script. To commit your script, please DM me on Discord DoggoProgrammer
 
 -----------------------------------------
 
-Current list of scripts:
+Current list of scripts: *
 
 | Name | Creator | Since | Links |
 | --- | --- | --- | --- |
 | Import | DoggoProgrammer | 07/07/2022 | None |
+
+* will be updated on every Sunday
+
+![alt text](http://picsum.photos/200/200)
