@@ -22,11 +22,11 @@ DP later was created when i got home. I just wanted something between all the sc
 DP is for people who want scripts to find their scripts easier. It's a big library full of scripts (not right now) but you can help DP being a big library.
 To Help DP being a big library, just put:
 
-```lua
+```
 -- this is part of DP. https://github.com/DoggoProgrammer/DPlibrary
 ```
 into your script. To commit your script, please DM me on Discord DoggoProgrammer#3317 and please use 
-```lua
+```
 Requesting adding script to library, Script Name: SCRIPTNAME, Script: UPLOADFILE Links: LINKS
 ```
 please make sure to upload a file and enter this text as description. If you don't do so, there are high chances your request is getting declined.
