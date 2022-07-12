@@ -1,6 +1,6 @@
 -- this is part of DP. https://github.com/DoggoProgrammer/DPlibrary
 -- please use this:
--- local Client = loadstring(game:HttpGet(...))()
+-- local Client = loadstring(game:HttpGet(https://raw.githubusercontent.com/DoggoProgrammer/DPlibrary/scripts/D/DPClient/DPClient.lua))()
 -- Client.SM("sxc") sm stands for select mode sxc stands for console mode gui stands for gui mode
 -- Client.RT(url) rt stands for redirectto (view the content of a site must be json view DPClient.md for more information) if you don't want to redirect to a site replace url with: "NONE" please also mind the quotes since it is a string
 local client = {}
