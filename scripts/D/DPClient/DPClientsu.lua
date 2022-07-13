@@ -30,6 +30,7 @@ function client.RT(url : string)
 end
 function client.startup()
     if sm ~= nil and rt ~= nil then
+        
     else
         print("please check that you setup everything. (view the site https://raw.githubusercontent.com/DoggoProgrammer/DPLibrary/main/scripts/C/DPClient.lua for more information)")
     end
