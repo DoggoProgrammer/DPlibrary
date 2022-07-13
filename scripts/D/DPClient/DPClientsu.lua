@@ -17,17 +17,17 @@ function client.SM(mode)
         print("undefined mode")
     end
 end
-function client.RT(url : string)
-    local http = game:GetService("HttpService")
-    local status, err = pcall(http.GetAsync, http, url)
-    if status then
-        rt = url
-    elseif url == "NONE" then
-        rt = "NONE"
-    else
-        print(err, "cannot add to rt")
-    end
-end
+-- function client.RT(url : string)
+--     local http = game:GetService("HttpService")
+--     local status, err = pcall(http.GetAsync, http, url)
+--     if status then
+--         rt = url
+--     elseif url == "NONE" then
+--         rt = "NONE"
+--     else
+--         print(err, "cannot add to rt")
+--     end
+-- end
 function client.startup()
     if sm ~= nil and rt ~= nil then
         
