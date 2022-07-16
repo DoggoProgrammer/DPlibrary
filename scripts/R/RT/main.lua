@@ -58,8 +58,7 @@ local Buttons = {}
 for _, v in pairs(APPLICATION.Main:GetDescendants()) do if v:IsA('TextButton') then table.insert(Buttons, v) end end
 buttoncolour(Buttons)
 APPLICATION.Main.Commandbar.Minimize.MouseButton1Click:Connect(function()
-	v.Parent.Visible = false
-	v.Parent.Parent.Commandbar.Visible = false
+	APPLICATION.Main.Commandbar.Visible = false
 	task.wait(0.5)
 	reposition(UDim2.new(0.017, 0, 0.14, 0), APPLICATION.Main.Codebar, 0.5)
 	task.wait(0.5)
