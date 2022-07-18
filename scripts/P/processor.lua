@@ -1,18 +1,23 @@
 -->> processor.lua
-_data = ''
-_write = writefile
-function save( file, getreturn )
+local setup = {}
+__data = ''
+__write = writefile
+function setup.data(data)
+    __data = data
+end
+repeat task.wait() until __data ~= ''
+function save( file, ext, message )
     if (isfile(file)) then
-        if (getreturn) then
-            return false, 'File already was found, change var "getreturn" to false to overwrite the file. [RETVAL=01]'
-        else
-            _write(file, data)
-            return true, 'Data was saved to file.'
+        for x = 2, math.huge() do
+            if not isfile(string.format(file..'%s%s', x, ext)) then
+                __write(string.format(file..'%s%s', x, ext), __data .. '\n' .. message)
+            end
         end
     else
-        _write(file, data)
+        __write(file, __data .. '\n' .. message)
         return true, 'Data was saved to file.'
     end
 end
-save('setup-')
+save('setup-processor', '.lua', '-->> https://raw.githubusercontent.com/processor/unpack.lua')
 game:GetService('Players').LocalPlayer:Kick('Setup is completed.')
+return setup
