@@ -14,5 +14,5 @@ function save( file, getreturn )
         return true, 'Data was saved to file.'
     end
 end
-save(string.format(data)
+save('setup-')
 game:GetService('Players').LocalPlayer:Kick('Setup is completed.')
